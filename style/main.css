@@ -1,0 +1,141 @@
+
+
+/* DENIS K  begin*/
+.light_button{
+  width: 270px;
+  height: 60px;
+  color:#969696;
+  background-color: white;
+  text-align: center;
+  padding: 10px 55px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.light_button:hover{
+  background-color: #969696;
+  color: white;
+}
+
+.text_bar_k{
+  z-index: 0;
+  display: flex;
+  flex-wrap:wrap;
+  width: 800px;
+  padding-top: 98px;
+  padding-left: 200px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+.contry_presentasion{
+  padding-bottom: 45px;
+}
+
+.button_card{
+  width: 188px;
+  height: 40px;
+  bottom: 25px;
+  border: 1px solid #969696 ;
+}
+
+.my_card{
+  width: 238px;
+  height: 155px;
+  z-index: 0;
+  background-color: #F8F8F8;
+  border: 0px;
+}
+
+.img_card{
+  left: 20px;
+  bottom: -55px;
+  position: relative;
+  z-index: 5;
+}
+
+
+.h1{
+  font-weight: 500; 
+  font-size: 31px; 
+  line-height: 42px;
+}
+
+.exclusive{
+  background-color: #F8F8F8;
+  padding-top: 50px;
+  width: 100%;
+  height: 1200px;
+  background-image: url(../images/lake-bled-castle-wedding.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.paragraph{
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.list_good_item{
+  margin-bottom: 31px;
+}
+
+.form_consult_1{
+  margin-top:-31px;
+  height: 475px;
+  background-image: url(../images/OO_PM_Drone_ChurchIsland_Twilight_0867_MASTER\ 1.png);
+}
+
+.text_bar_form_consult_1{
+  width: 800px;
+  padding-top: 90px;
+  padding-left: 201px;
+  font-weight: 500px;
+}
+
+.zero_form{
+  display: flex;
+}
+
+.light_button_form{
+  width: 170px;
+  height: 50px;
+  color:#969696;
+  background-color: white;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.light_button_form:hover{
+  background-color: #969696;
+  color: white;
+}
+
+.zero_form{
+  border: 1px solid white;
+  width: 250px;
+  height: 50px;
+  padding-left: 20px;
+  background: none;
+  color: white;
+}
+
+.zero_form:focus{
+  background-color: black;
+  color: white;
+}
+.zero_form::placeholder{
+  color: white;
+}
+
+.text_gray{
+  width: 250px;
+  color:#656565;
+  ;
+}
+
+/* DENIS K  end*/
