@@ -138,4 +138,28 @@
   ;
 }
 
+.box-slide{
+  text-align: center;
+  height: 150px;
+  border-right: 1px solid #cecece;
+  background-color: white;
+}
+
+.button_about_small{
+  width: 150px;
+  height: 50px;
+  color:#969696;
+  background-color: white;
+  text-align: center;
+  padding: 7px 20px;
+  font-size: 16px;
+  border: 1px solid #969696;
+  text-decoration: none;
+}
+
+.button_about_small:hover{
+  background-color: #969696;
+  color: white;
+}
+
 /* DENIS K  end*/
