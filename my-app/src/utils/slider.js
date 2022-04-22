@@ -513,3 +513,5 @@ ChiefSlider.prototype.moveTo = function(index) {
 ChiefSlider.prototype.refresh = function() {
     this._refresh();
 };
+
+export default ChiefSlider

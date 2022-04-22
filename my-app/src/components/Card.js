@@ -3,7 +3,7 @@ import React from 'react';
 function Card(props) {
     return (
         <div className="card news-card">
-            <img src="" className="card-img-top" alt="..."/>
+            <img src={props.news.img} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
@@ -14,10 +14,9 @@ function Card(props) {
                         d="M11.8183 8.16749C11.5969 7.95361 11.2458 7.95361 11.0244 8.16749L6.85696 12.3349L4.97524 10.4532C4.74823 10.2339 4.38649 10.2402 4.16725 10.4672C3.95337 10.6887 3.95337 11.0397 4.16725 11.2612L6.45297 13.5469C6.67613 13.77 7.03783 13.77 7.26096 13.5469L11.8324 8.97548C12.0516 8.74847 12.0453 8.38673 11.8183 8.16749Z"
                         fill="#BBBBBB"/>
                 </svg>
-                <time dateTime="">18 марта 2021</time>
-                <h5 className="card-title">Зимовка в Regent
-                    Porto Montenegro</h5>
-                <a href="#" className="news btn btn-link">Подробнее</a>
+                <time dateTime="">{props.news.date}</time>
+                <h5 className="card-title">{props.news.title}</h5>
+                <a href={props.news.href} className="news btn btn-link" >Подробнее</a>
             </div>
         </div>
     );

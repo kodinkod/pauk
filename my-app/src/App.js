@@ -1,9 +1,12 @@
-import './App.css';
+import './index.css';
+import Block from "./components/Block";
+import Block_List from "./components/Block_List";
+import News_header from "./components/news_header";
+import ListSlider from "./components/List-Slider";
 
 function App() {
   return (
-      <div>Hello world</div>
-
+        <Block_List header = {<News_header/>} list = {<ListSlider/>}/>
   );
 }
 
