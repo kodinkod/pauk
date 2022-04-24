@@ -4,944 +4,226 @@
 
 /* Alexey F start */
 .important-news{ 
-    background-color: #F8F8F8;
-    margin-left: 0;
-    margin-right: 0;
-    padding:75px 150px;
+  background-color: #F8F8F8;
+  margin-left: 0;
+  margin-right: 0;
+  padding:75px 150px;
 }
 
 .news-card{
-    border: 0px;
-    padding: 8px;
-    background-color: #F8F8F8;
-    border-left: 1px solid #EEEEEE;
+  border: 0px;
+  padding: 8px;
+  background-color: #F8F8F8;
+  border-left: 1px solid #EEEEEE;
 }
 
 
 .news.btn.btn-link{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    padding-left: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 0;
 }
 
 .section-href-cont{
-    display: flex;
-    padding: 5px;
-    justify-content: flex-end;
-    
+  display: flex;
+  padding: 5px;
+  justify-content: flex-end;
+  
 }
 .section-href{
-    padding: 5px;
-    border: 1px solid #969696;
-    box-sizing: border-box;
-    border-radius: 2px;
-    color: #656565;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
+  padding: 5px;
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #656565;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .card-body h5{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 
 
 .card-body time{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #BBBBBB;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #BBBBBB;
 } 
 .card-body a{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #232323;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #232323;
 
 }
 
 
 
 .card-body image{
-    color: #BBBBBB;
+  color: #BBBBBB;
 }
 
 .news-list{
-    position: relative;
+  position: relative;
 }
 
- .news-btn{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border: none;
- }
+.news-btn{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
 
- #news-btn-right{
+#news-btn-right{
 
-    background: url("../images/arrow-right-circle.svg") no-repeat ;
-    background-size: contain;
-    right: -80px;
- }
+  background: url("../images/arrow-right-circle.svg") no-repeat ;
+  background-size: contain;
+  right: -80px;
+}
 
- #news-btn-left{
-    background: url("../images/arrow-left-circle.svg") no-repeat;
-    background-size: contain;
-    left: -80px;
- }
+#news-btn-left{
+  background: url("../images/arrow-left-circle.svg") no-repeat;
+  background-size: contain;
+  left: -80px;
+}
 
- .blog{
-    margin-left: 0;
-    margin-right: 0;
-    padding:75px 150px;
-    padding-bottom: 0;
- }
-
-
- .card-header{
-
-    display: flex;
-    justify-content: space-between;
-    background: none;
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #BBBBBB;
-    margin: 0;
-
- }
-
- .card-header p{
-    margin: 0;
- }
-
- .blog-plane-img{
-    position: absolute;
-    right: -100px;
-    top: -191px;
- }
-
- .blog-hr-cont{
-    position: relative;
-
- }
-
- .blog-list{
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap; 
-    overflow: hidden;
-    align-items: center;
-    margin-right: 0px;
-    padding-left: 150px;
-    padding-bottom: 100px;
+.blog{
+  margin-left: 0;
+  margin-right: 0;
+  padding:75px 150px;
+  padding-bottom: 0;
 }
 
 
- .blog-card{
-    flex: 0 0 auto;
-    padding: 10px 10px;
-    margin-right: 30px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
-    }
+.card-header{
 
- .blog-card h5{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    width: 70%;
- }
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #BBBBBB;
+  margin: 0;
 
- #blog-btn-right{
+}
 
-    background: url("../images/arrow-right-circle.svg") no-repeat ;
-    background-size: contain;
-    top: 210px;
-    left: 70px;
- }
+.card-header p{
+  margin: 0;
+}
 
- #blog-btn-left{
-    background: url("../images/arrow-left-circle.svg") no-repeat;
-    background-size: contain;
-    bottom: 310px;
-    left: 70px;
- }
+.blog-plane-img{
+  position: absolute;
+  right: -100px;
+  top: -191px;
+}
+
+.blog-hr-cont{
+  position: relative;
+
+}
+
+.blog-list{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow: hidden;
+  align-items: center;
+  margin-right: 0px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+
+.blog-card{
+  flex: 0 0 auto;
+  padding: 10px 10px;
+  margin-right: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  }
+
+.blog-card h5{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  width: 70%;
+}
+
+#blog-btn-right{
+
+  background: url("../images/arrow-right-circle.svg") no-repeat ;
+  background-size: contain;
+  top: 210px;
+  left: 70px;
+}
+
+#blog-btn-left{
+  background: url("../images/arrow-left-circle.svg") no-repeat;
+  background-size: contain;
+  bottom: 310px;
+  left: 70px;
+}
 
 .email-form{
-    color: white;
-    margin: 0;
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: #DD4053;
-    position: relative;
+  color: white;
+  margin: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #DD4053;
+  position: relative;
 
 }   
 
 
 .email-form>.container{
-   background: url("../images/email-pattern.svg") no-repeat;
-   background-position: right -15px;
+ background: url("../images/email-pattern.svg") no-repeat;
+ background-position: right -15px;
 
 }
 
-  .email-form h2{
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 55px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
+.email-form h2{
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
 .email-form p{
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
 .email-form .email-submit{
 
-    color:#DA2032;
-    border: 0px;
-    border-radius: 2px;
-    padding:  12px 35px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-
-}
-
-.email-input-container{
-    
-    border: 2px solid white;
-    background: rgba(255, 255, 255, 0.2);
-    
-}
-
-#email-input{
-    border-radius: 0px;
-    background: none;
-}
-
-#email-input::placeholder{
-    color:white;
-}
-
- .email-radio-input{
-
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
- }
-
- .email-radio-input+label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-}
- .email-radio-input+label::before {
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  border: 1px solid white;
-  border-radius: 25px;
-  margin-right: 0.5em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
-}
-
- .email-radio-input:checked+label::before {
-
-  background-color: white;
-  background-image: url("../images/check.svg");
-  background-repeat: no-repeat;
-}
-
-.why-us{
-    margin: 0;
-    padding: 70px 150px;
-    
-    background-color: #F8F8F8;
-   
-    }
-
- .why-us-cont{
-    background: url("../images/why-us-map.png") no-repeat;
-    background-size: contain;
-   
- }
-
-.why-us>.container{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.why-us-card{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 80px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: relative;
-    height: 100%;
-}
-
-
-.why-us-card>button{
-    border: 1px solid #C6C6C6;
-    padding: 15px;
-    background: url("../images/why-us-check.svg") no-repeat;
-    background-size: contain;
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    right: 10px;
-}
-
-/* Alexey F end */
-
-/* DENIS K  begin*/
-.light_button{
-  width: 270px;
-  height: 60px;
-  color:#969696;
-  background-color: white;
-  text-align: center;
-  padding: 10px 55px;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.light_button:hover{
-  background-color: #969696;
-  color: white;
-}
-
-.text_bar_k{
-  z-index: 0;
-  display: flex;
-  flex-wrap:wrap;
-  width: 800px;
-  padding-top: 98px;
-  padding-left: 200px;
-  font-weight: 500px;
-  font-size: 30px;
-  line-height: 150%;
-}
-
-.contry_presentasion{
-  
-  padding-bottom: 45px;
-}
-
-.button_card{
-  width: 188px;
-  height: 40px;
-  bottom: 25px;
-  border: 1px solid #969696 ;
-}
-
-.my_card{
-  width: 238px;
-  height: 155px;
-  z-index: 0;
-  background-color: #F8F8F8;
-  border: 0px;
-}
-
-.img_card{
-  left: 20px;
-  bottom: -55px;
-  position: relative;
-  z-index: 5;
-}
-
-
-.h1{
-  font-weight: 500; 
-  font-size: 31px; 
-  line-height: 42px;
-}
-
-.exclusive{
-  background-color: #F8F8F8;
-  padding-top: 50px;
-  width: 100%;
-  height: 1200px;
-  background-image: url(../images/lake-bled-castle-wedding.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.paragraph{
-  margin-top: 30px;
-  font-size: 17px;
-  line-height: 28px;
-}
-
-.list_good_item{
-  font-weight: 500;
-font-size: 17px;
-line-height: 26px;
-  margin-bottom: 31px;
-}
-
-.list_good_item .col-5{
-  height: 60px;
-  border-bottom: 7px solid transparent;
-}
-
-.list_good_item .r-col{
-  margin-left: 110px;
-  height: 60px;
-}
-
-.list_good_item .r-col:hover{
-  border-bottom: 7px solid #DD4053;
-}
-
-.list_good_item .col-5:hover{
-  border-bottom: 7px solid #DD4053;
-}
-
-
-.form_consult_1{
-  margin-top:-31px;
-  height: 475px;
-  background-image: url(../images/OO_PM_Drone_ChurchIsland_Twilight_0867_MASTER\ 1.png);
-}
-
-.kwa_form{
-  color: #F8F8F8; 
-  margin-top: -24px;
-  opacity: 0;
-}
-
-/* KAAK*/
-.form_consult_1 .zero_form:focus::placeholder  {
-  opacity: 0;
-}
-
-.form_consult_1 .zero_form:focus  ~.kwa_form {
-  opacity: 1;
-}
-
-
-.text_bar_form_consult_1{
-  width: 800px;
-  padding-top: 90px;
-  padding-left: 201px;
-  font-weight: 500px;
-}
-
-.zero_form{
-  display: flex;
-}
-
-.light_button_form{
-  width: 170px;
-  height: 50px;
-  color:#969696;
-  background-color: white;
-  text-align: center;
-  padding-top: 13px;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.light_button_form:hover{
-  background-color: #969696;
-  color: white;
-}
-
-.zero_form{
-  border: 1px solid white;
-  width: 250px;
-  height: 50px;
-  padding-left: 20px;
-  background: none;
-  color: white;
-}
-
-.zero_form:focus{
-  background-color: black;
-  color: white;
-}
-.zero_form::placeholder{
-  color: white;
-}
-
-.text_gray{
-  width: 250px;
-  color:#656565;
-  ;
-}
-
-.box-slide{
-  text-align: center;
-  height: 150px;
-  border-right: 1px solid #cecece;
-  background-color: white;
-}
-
-.button_about_small{
-  width: 150px;
-  height: 50px;
-  color:#969696;
-  background-color: white;
-  text-align: center;
-  padding: 7px 20px;
-  font-size: 16px;
-  border: 1px solid #969696;
-  text-decoration: none;
-}
-
-.button_about_small:hover{
-  background-color: #969696;
-  color: white;
-}
-
-.box-tile{
-  padding-left: 70px;
-  padding-top: 55px;
-  font-size: 22px;
-  line-height: 30px;
-
-}
-
-.tile{
-  background-color: #F8F8F8;
-  padding-right: 31px;
-  padding-left: 31px;
-  padding-top: 31px;
-  height: 263px;
-  border: 1px solid #E3E3E3;
-  border-top: 4px solid transparent;
-}
-
-.tile p{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-  color: #848484;
- 
-}
-
-.tile:hover{
-  background: white;
-  border-top: 4px solid #DD4053 ;
-}
-
-.tile_mark{
-  font-size: 16px;
-  line-height: 28px;
-  color: #717171;
-
-}
-.activ_tile{
-  background-color: white;
-  border-top: 10px solid #DD4053;
-}
-
-.tile h1{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-
-/* поправить фон */
-.what_travel{
-  background:url(../images/travel.png), url(../images/Mask\ Group\ 555.png) 100px top ;
-  height: 379px;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  background-position: top 10px;
-  margin-top: 80px;
-  z-index: 0;
-}
-
-.what_travel p{
-  text-align: center;
-  padding-top: 150px;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 55px;
-  /* or 138% */
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-.menu_line_under:after {
-    content: "";
-    border-bottom: 3px solid red;
-    display: block;
-    width: 0px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-}
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8fa50e8 (up)
-.crazy_block{
-  height: 560px;
-  z-index: 5;
-  margin-top: -65px;
-  background: white;
-<<<<<<< HEAD
->>>>>>> 2abca69 (Merge branch 'Ivan')
-
-.menu_line_under:hover:after {
-    width: 100%;
-    height: 3px;
-    left: 0;
-    transition: all .5s linear;
-}
-
-.menu_line_under:hover {
-    transition: background .4s ease-in-out;
-    color: #111;
-}
-
-.menu_line_under:last-child {
-    position: absolute;
-    top: -1000%;
-    left: 0;
-    transform: scale(3);
-}
-
-.menu_line_under:last-child:hover {
-    top: 100%;
-    transition: top .4s ease-in-out, transform .4s linear;
-    transform: scale(1);
-}
-
-/* Search button */
-}
-.search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-}
-.input-search{
-    height: 50px;
-    width: 50px;
-    border-style: none;
-    padding: 10px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    outline: none;
-    border-radius: 25px;
-    transition: all .5s ease-in-out;
-    background-color: #;
-    padding-right: 40px;
-    color:#000000;
-}
-.input-search::placeholder{
-    color:rgba(0,0,0,.5);
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-.btn-search{
-    width: 50px;
-    height: 50px;
-    border-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    right: 0px;
-    color:#000000 ;
-    background-color:transparent;
-    pointer-events: painted;
-}
-.btn-search:focus ~ .input-search{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(0,0,0,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-.input-search:focus{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(0,0,0,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-
-
-.maistra-online{
-    display: inline-flex;
-    width: 240px;
-    height: 55px;
-
-
-    background: #EFF3F6;
-    border-radius: 2px;
-}
-
-
-.maistra-redblock{
-    position: inherit;
-    right: 0;
-
-
-    width: 55px;
-    height: 55px;
-
-    background: #DD4053;
-    border-radius: 2px;
-}
-
-.tour-online{
-    display: inline-flex;
-    width: 205px;
-    height: 55px;
-
-    background: #EFF3F6;
-    border-radius: 2px;
-}
-
-.tour-greenblock{
-    position: inherit;
-    right: 0;
-    width: 55px;
-    height: 55px;
-
-
-    background: #4AD295;
-    border-radius: 2px;
-}
-
-​.footer-main {
-    position: fixed;
-    display: inline-flex;
-    width: 205px;
-    height: 55px;
-}​
-
-
-
-/* VANYA END */
-
-/* DENIS K  end*/
-
-.menu_line_under:after {
-    content: "";
-    border-bottom: 3px solid red;
-    display: block;
-    width: 0px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-}
-
-.menu_line_under:hover:after {
-    width: 100%;
-    height: 3px;
-    left: 0;
-    transition: all .5s linear;
-}
-
-.menu_line_under:hover {
-    transition: background .4s ease-in-out;
-    color: #111;
-}
-
-.menu_line_under:last-child {
-    position: absolute;
-    top: -1000%;
-    left: 0;
-    transform: scale(3);
-}
-
-.menu_line_under:last-child:hover {
-    top: 100%;
-    transition: top .4s ease-in-out, transform .4s linear;
-    transform: scale(1);
-}
-
-/* Search button */
-}
-.search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-}
-.input-search{
-    height: 50px;
-    width: 50px;
-    border-style: none;
-    padding: 10px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    outline: none;
-    border-radius: 25px;
-    transition: all .5s ease-in-out;
-    background-color: #;
-    padding-right: 40px;
-    color:#000000;
-}
-.input-search::placeholder{
-    color:rgba(0,0,0,.5);
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-.btn-search{
-    width: 50px;
-    height: 50px;
-    border-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    right: 0px;
-    color:#000000 ;
-    background-color:transparent;
-    pointer-events: painted;
-}
-.btn-search:focus ~ .input-search{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(0,0,0,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-.input-search:focus{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(0,0,0,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-
-
-.maistra-online{
-    display: inline-flex;
-    width: 240px;
-    height: 55px;
-
-
-    background: #EFF3F6;
-    border-radius: 2px;
-}
-
-
-.maistra-redblock{
-    position: inherit;
-    right: 0;
-
-
-    width: 55px;
-    height: 55px;
-
-    background: #DD4053;
-    border-radius: 2px;
-}
-
-.tour-online{
-    display: inline-flex;
-    width: 205px;
-    height: 55px;
-
-    background: #EFF3F6;
-    border-radius: 2px;
-}
-
-.tour-greenblock{
-    position: inherit;
-    right: 0;
-    width: 55px;
-    height: 55px;
-
-
-    background: #4AD295;
-    border-radius: 2px;
-}
-
-​.footer-main {
-    position: fixed;
-    display: inline-flex;
-    width: 205px;
-    height: 55px;
-}​
-
-
-/* VANYA END */
-
-=======
-
-  font-size: 18px; 
-  line-height: 26px;
-
-  padding-top: 70px;
-  padding-left: 100px;
-}
-
-.email-form-two{
-  color: black;
-  margin: 0;
-  padding-left: 150px;
-  padding-right: 150px;
-  background: #F8F8F8;
-
-  position: relative;
-}
-
-.email-form-two .email-submit{
-
-  color:white;
-  background-color: #DA2032;
+  color:#DA2032;
   border: 0px;
   border-radius: 2px;
   padding:  12px 35px;
@@ -951,20 +233,433 @@ line-height: 26px;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
+
+}
+
+.email-input-container{
+  
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  
+}
+
+#email-input{
+  border-radius: 0px;
+  background: none;
+}
+
+#email-input::placeholder{
+  color:white;
+}
+
+.email-radio-input{
+
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.email-radio-input+label {
+display: inline-flex;
+align-items: center;
+user-select: none;
+}
+.email-radio-input+label::before {
+content: '';
+display: inline-block;
+width: 25px;
+height: 25px;
+flex-shrink: 0;
+flex-grow: 0;
+border: 1px solid white;
+border-radius: 25px;
+margin-right: 0.5em;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 50% 50%;
+}
+
+.email-radio-input:checked+label::before {
+
+background-color: white;
+background-image: url("../images/check.svg");
+background-repeat: no-repeat;
+}
+
+.why-us{
+  margin: 0;
+  padding: 70px 150px;
+  
+  background-color: #F8F8F8;
+ 
+  }
+
+.why-us-cont{
+  background: url("../images/why-us-map.png") no-repeat;
+  background-size: contain;
+ 
+}
+
+.why-us>.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.why-us-card{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  height: 100%;
+}
+
+
+.why-us-card>button{
+  border: 1px solid #C6C6C6;
+  padding: 15px;
+  background: url("../images/why-us-check.svg") no-repeat;
+  background-size: contain;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  right: 10px;
+}
+
+/* Alexey F end */
+
+/* DENIS K  begin*/
+.light_button{
+width: 270px;
+height: 60px;
+color:#969696;
+background-color: white;
+text-align: center;
+padding: 10px 55px;
+font-size: 16px;
+text-decoration: none;
+}
+
+.light_button:hover{
+background-color: #969696;
+color: white;
+}
+
+.text_bar_k{
+z-index: 0;
+display: flex;
+flex-wrap:wrap;
+width: 800px;
+padding-top: 98px;
+padding-left: 200px;
+font-weight: 500px;
+font-size: 30px;
+line-height: 150%;
+}
+
+.contry_presentasion{
+
+padding-bottom: 45px;
+}
+
+.button_card{
+width: 188px;
+height: 40px;
+bottom: 25px;
+border: 1px solid #969696 ;
+}
+
+.my_card{
+width: 238px;
+height: 155px;
+z-index: 0;
+background-color: #F8F8F8;
+border: 0px;
+}
+
+.img_card{
+left: 20px;
+bottom: -55px;
+position: relative;
+z-index: 5;
+}
+
+
+.h1{
+font-weight: 500; 
+font-size: 31px; 
+line-height: 42px;
+}
+
+.exclusive{
+background-color: #F8F8F8;
+padding-top: 50px;
+width: 100%;
+height: 1200px;
+background-image: url(../images/lake-bled-castle-wedding.png);
+background-repeat: no-repeat;
+background-position: bottom;
+}
+
+.paragraph{
+margin-top: 30px;
+font-size: 17px;
+line-height: 28px;
+}
+
+.list_good_item{
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+margin-bottom: 31px;
+}
+
+.list_good_item .col-5{
+height: 60px;
+border-bottom: 7px solid transparent;
+}
+
+.list_good_item .r-col{
+margin-left: 110px;
+height: 60px;
+}
+
+.list_good_item .r-col:hover{
+border-bottom: 7px solid #DD4053;
+}
+
+.list_good_item .col-5:hover{
+border-bottom: 7px solid #DD4053;
+}
+
+
+.form_consult_1{
+margin-top:-31px;
+height: 475px;
+background-image: url(../images/OO_PM_Drone_ChurchIsland_Twilight_0867_MASTER\ 1.png);
+}
+
+.kwa_form{
+color: #F8F8F8; 
+margin-top: -24px;
+opacity: 0;
+}
+
+/* KAAK*/
+.form_consult_1 .zero_form:focus::placeholder  {
+opacity: 0;
+}
+
+.form_consult_1 .zero_form:focus  ~.kwa_form {
+opacity: 1;
+}
+
+
+.text_bar_form_consult_1{
+width: 800px;
+padding-top: 90px;
+padding-left: 201px;
+font-weight: 500px;
+}
+
+.zero_form{
+display: flex;
+}
+
+.light_button_form{
+width: 170px;
+height: 50px;
+color:#969696;
+background-color: white;
+text-align: center;
+padding-top: 13px;
+font-size: 16px;
+text-decoration: none;
+}
+
+.light_button_form:hover{
+background-color: #969696;
+color: white;
+}
+
+.zero_form{
+border: 1px solid white;
+width: 250px;
+height: 50px;
+padding-left: 20px;
+background: none;
+color: white;
+}
+
+.zero_form:focus{
+background-color: black;
+color: white;
+}
+.zero_form::placeholder{
+color: white;
+}
+
+.text_gray{
+width: 250px;
+color:#656565;
+;
+}
+
+.box-slide{
+text-align: center;
+height: 150px;
+border-right: 1px solid #cecece;
+background-color: white;
+}
+
+.button_about_small{
+width: 150px;
+height: 50px;
+color:#969696;
+background-color: white;
+text-align: center;
+padding: 7px 20px;
+font-size: 16px;
+border: 1px solid #969696;
+text-decoration: none;
+}
+
+.button_about_small:hover{
+background-color: #969696;
+color: white;
+}
+
+.box-tile{
+padding-left: 70px;
+padding-top: 55px;
+font-size: 22px;
+line-height: 30px;
+
+}
+
+.tile{
+background-color: #F8F8F8;
+padding-right: 31px;
+padding-left: 31px;
+padding-top: 31px;
+height: 263px;
+border: 1px solid #E3E3E3;
+border-top: 4px solid transparent;
+}
+
+.tile p{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #848484;
+
+}
+
+.tile:hover{
+background: white;
+border-top: 4px solid #DD4053 ;
+}
+
+.tile_mark{
+font-size: 16px;
+line-height: 28px;
+color: #717171;
+
+}
+.activ_tile{
+background-color: white;
+border-top: 10px solid #DD4053;
+}
+
+.tile h1{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+
+/* поправить фон */
+.what_travel{
+background:url(../images/travel.png), url(../images/Mask\ Group\ 555.png) 100px top ;
+height: 379px;
+background-position-x: center;
+background-position-y: center;
+background-repeat: no-repeat;
+background-position: top 10px;
+margin-top: 80px;
+z-index: 0;
+}
+
+.what_travel p{
+text-align: center;
+padding-top: 150px;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+/* or 138% */
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
+
+
+
+.crazy_block{
+height: 560px;
+z-index: 5;
+margin-top: -65px;
+background: white;
+
+font-size: 18px; 
+line-height: 26px;
+
+padding-top: 70px;
+padding-left: 100px;
+}
+
+.email-form-two{
+color: black;
+margin: 0;
+padding-left: 150px;
+padding-right: 150px;
+background: #F8F8F8;
+
+position: relative;
+}
+
+.email-form-two .email-submit{
+
+color:white;
+background-color: #DA2032;
+border: 0px;
+border-radius: 2px;
+padding:  12px 35px;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
 }
 
 .email-form-two .email-submit:hover{
-  color:#DA2032;
-  background-color: white;
+color:#DA2032;
+background-color: white;
 }
 
 .email-form-two .col-5{
-  margin-bottom: 30px;
+margin-bottom: 30px;
 
-  font-size: 18px;
-  line-height: 30px;
+font-size: 18px;
+line-height: 30px;
 }
 
 
 /* DENIS K  end*/
->>>>>>> 8fa50e8 (up)
