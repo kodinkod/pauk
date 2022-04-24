@@ -125,7 +125,7 @@
     outline: none;
     border-radius: 25px;
     transition: all .5s ease-in-out;
-    background-color: #;
+    background-color:  #F8F8F8;;
     padding-right: 40px;
     color:#000000;
 }
@@ -210,11 +210,16 @@
 }
 
 ​.footer-main {
+    background-color: #F8F8F8;
     position: fixed;
     display: inline-flex;
     width: 205px;
     height: 55px;
 }​
 
+footer{
+    background-color:  #F8F8F8;
+    
+}
 
 /* VANYA END */
