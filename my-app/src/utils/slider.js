@@ -124,14 +124,14 @@ ChiefSlider.prototype._addEventListener = function() {
     var $items = this._$items;
     var config = this._config;
     function onClick(e) {
-        var $target = e.target;
+        var btn = e.target.closest("button");
         this._autoplay('stop');
-        if ($target.classList.contains(CONTROL_CLASS)) {
+        if (btn.classList.contains(CONTROL_CLASS)) {
             e.preventDefault();
-            this._direction = $target.dataset.slide;
+            this._direction = btn.dataset.slide;
             this._move();
-        } else if ($target.dataset.slideTo) {
-            var index = parseInt($target.dataset.slideTo);
+        } else if (btn.dataset.slideTo) {
+            var index = parseInt(btn.dataset.slideTo);
             this._moveTo(index);
         }
         if (this._config.loop) {
@@ -291,6 +291,14 @@ ChiefSlider.prototype._setActiveClass = function() {
     for (var i = 0, length = $itemList.length; i < length; i++) {
         var $item = $itemList[i];
         var index = +$item.dataset.index;
+        if (activeItems.indexOf(index) == 0){
+            $item.classList.add(CLASS_ITEM_ACTIVE + "--first")
+        }
+        else {
+            let s = CLASS_ITEM_ACTIVE + "--first"
+            $item.classList.remove(s)
+
+        }
         if (activeItems.indexOf(index) > -1) {
             $item.classList.add(CLASS_ITEM_ACTIVE);
         } else {

@@ -3,45 +3,46 @@ $secondary-font: "Open sans";
 $header-footer-font: "sans-serif";
 $font-size: 10px;
 
- .main-size{
- 	font-size: $font-size;
- }
-
-.main-font {
-	font-family: $main-font;
-} 
-
-.secondary-font {
-	font-family: $secondary-font;
+.main-size {
+  font-size: $font-size;
 }
 
- .block_slider-header{
- 	@media screen and (min-width: 1400px)  {
- 		 font-size: 4.5 * $font-size;
- 	}
-     font-size: 32px;
-     font-weight: 500;
-     line-height: 122%;
-     letter-spacing: 0em;
-     text-align: left;
-     text-transform: uppercase;
+.main-font {
+  font-family: $main-font;
+}
 
- }
+.secondary-font {
+  font-family: $secondary-font;
+}
 
- .button {
-   color:rgba(150, 150, 150, 1);
-    height: 32px;
-    @media screen and (min-width: 1400px)  {
-         height: 4.5 * $font-size;
-    }
-    @media screen and (min-width: 992px){
-        width: 100%;
-    }
- 	font-family: Montserrat;
-	font-size: 1.4 * $font-size;
-	font-weight: 700;
-	letter-spacing: 0em;
-	text-align: center;
-    line-height: 122%;
+.block_slider-header {
+  @media screen and (min-width: 1400px) {
+    font-size: 4.5 * $font-size;
+  }
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px;
 
- }    
+}
+
+.button {
+  color: rgba(150, 150, 150, 1);
+  height: 32px;
+  @media screen and (min-width: 1400px) {
+    height: 4.5 * $font-size;
+  }
+  @media screen and (min-width: 992px) {
+    width: 100%;
+  }
+  font-size: 1.4 * $font-size;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 122%;
+
+}

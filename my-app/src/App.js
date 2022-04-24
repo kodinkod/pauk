@@ -6,7 +6,7 @@ import ListSlider from "./components/List-Slider";
 
 function App() {
   return (
-        <Block_List header = {<News_header/>} list = {<ListSlider/>}/>
+        <Block_List header = {<News_header header_text = "важные новости" link_text = "Все новости"/>} list = {<ListSlider/>}/>
   );
 }
 

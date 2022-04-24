@@ -1,0 +1,15 @@
+.link{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  &.news {
+    display: inline-block;
+    color: rgba(35, 35, 35, 1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(44, 44, 44, 1);
+     &:hover{
+       color: rgba(221, 64, 83, 1);
+       border-color: rgba(221, 64, 83, 1);
+     }
+  }
+}
