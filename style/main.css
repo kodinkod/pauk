@@ -535,86 +535,83 @@ line-height: 26px;
   color: white;
 }
 
-/* DENIS K  end*/
+.box-tile{
+  padding-left: 70px;
+  padding-top: 55px;
+  font-size: 22px;
+  line-height: 30px;
 
-
-/* ADDED VANYA*/
-.social-media-links{
-
-    opacity:40%;
 }
 
-@font-face {
-    font-family: "Suisse Int'l";
-    src: url("fonts/Suisse Int'l/Suisse Int'l.ttf") format("opentype")
+.tile{
+  background-color: #F8F8F8;
+  padding-right: 31px;
+  padding-left: 31px;
+  padding-top: 31px;
+  height: 263px;
+  border: 1px solid #E3E3E3;
+  border-top: 4px solid transparent;
 }
 
-.header{
-    font-family: "Suisse Int`l";
+.tile p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #848484;
+ 
 }
 
-.header-1-second-block{
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height */
-    text-align: center;
-}
-.btn-outline-primary{
-    color: #000;
-    border-color: #fff;
+.tile:hover{
+  background: white;
+  border-top: 4px solid #DD4053 ;
 }
 
-.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
-    color: #fff;
-    background-color: #4AD295;
-    border-color: #4AD295;
+.tile_mark{
+  font-size: 16px;
+  line-height: 28px;
+  color: #717171;
+
+}
+.activ_tile{
+  background-color: white;
+  border-top: 10px solid #DD4053;
 }
 
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color: #4AD295;
-    border-color: #4AD295;
-}
-
-.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-    box-shadow: 0 0 0 0.25rem rgba(13, 134, 13, 0.5);
-}
-.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-    box-shadow: 0 0 0 0.25rem rgba(13, 134, 13, 0.5);
-}
-
-.vertical-small-line-rectangle{
-    width: 1px;
-    height: 40px;
-    background: #D0D0D0;
-}
-
-.vertical-line-rectangle{
-    width: 100%;
-    height: 1px;
-    left: 0px;
-    background: #D0D0D0;
-}
-
-.header-2{
-    font-style: bold;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    text-align: center;
+.tile h1{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 
-.img-container {
-    text-align: center;
-    display: block;
+/* поправить фон */
+.what_travel{
+  background:url(../images/travel.png), url(../images/Mask\ Group\ 555.png) 100px top ;
+  height: 379px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-position: top 10px;
+  margin-top: 80px;
+  z-index: 0;
 }
-.navbar-header-2{
-    justify-content: space-between;
+
+.what_travel p{
+  text-align: center;
+  padding-top: 150px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 55px;
+  /* or 138% */
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .menu_line_under:after {
     content: "";
@@ -627,11 +624,14 @@ line-height: 26px;
 }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 8fa50e8 (up)
 .crazy_block{
   height: 560px;
   z-index: 5;
   margin-top: -65px;
   background: white;
+<<<<<<< HEAD
 >>>>>>> 2abca69 (Merge branch 'Ivan')
 
 .menu_line_under:hover:after {
@@ -919,3 +919,52 @@ line-height: 26px;
 
 /* VANYA END */
 
+=======
+
+  font-size: 18px; 
+  line-height: 26px;
+
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.email-form-two{
+  color: black;
+  margin: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: #F8F8F8;
+
+  position: relative;
+}
+
+.email-form-two .email-submit{
+
+  color:white;
+  background-color: #DA2032;
+  border: 0px;
+  border-radius: 2px;
+  padding:  12px 35px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.email-form-two .email-submit:hover{
+  color:#DA2032;
+  background-color: white;
+}
+
+.email-form-two .col-5{
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+/* DENIS K  end*/
+>>>>>>> 8fa50e8 (up)
