@@ -29,7 +29,6 @@ class ListSlider extends React.Component {
         let slider_items = (n) => {
             let res = []
             for (let i = 0; i < n; i++) res[i] = (<div className='slider__item'>{card} </div>)
-            console.log(res)
             return res
 
         }
@@ -37,33 +36,9 @@ class ListSlider extends React.Component {
             <div className="slider">
                 <div className="slider__container">
                     <div className="slider__wrapper">
-                        {/*<div className="slider__items">
-                            <div className="slider__item">
-                                <NewsCard news = {news}/>
-                            </div>
-                            <div className="slider__item">
-                                <NewsCard news = {news}/>
-                            </div>
-                            <div className="slider__item">
-                                <NewsCard news = {news}/>
-                            </div>
-                            <div className="slider__item">
-                                <NewsCard news = {news}/>
-                            </div>
-                            <div className="slider__item">
-                                <Card news ={news}/>
-                            </div>
-                            <div className="slider__item">
-                                <Card news = {news}/>
-                            </div>
-                            <div className="slider__item">
-                                <Card news = {news}/>
-                            </div>
-                        </div>*/}
                         <div className="slider__items">
                             {slider_items(6)}
                         </div>
-
                     </div>
                 </div>
                 <button className="slider__control" data-slide="prev">

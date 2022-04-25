@@ -31,11 +31,10 @@
   max-width: 25%;
   user-select: none;
 
-  &.slider__item_active--first{
+  &.slider__item_active--first>*{
     border: none;
   }
 }
-
 /* кнопки влево и вправо */
 
 .slider__control {

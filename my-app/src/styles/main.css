@@ -81,7 +81,7 @@
   @media screen and (max-width: 1200px) and (min-width: 801px) {
     .slider__item {
       max-width: 33.33333333%; } }
-  .slider__item.slider__item_active--first {
+  .slider__item.slider__item_active--first > * {
     border: none; }
 
 /* кнопки влево и вправо */
