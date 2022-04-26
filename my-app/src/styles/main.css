@@ -72,27 +72,11 @@
   transition: none; }
 
 .slider__item {
-  flex: 0 0 100%;
-  max-width: 25%;
-  user-select: none; }
-  @media screen and (max-width: 800px) {
-    .slider__item {
-      max-width: 100%; } }
-  @media screen and (max-width: 1200px) and (min-width: 801px) {
-    .slider__item {
-      max-width: 33.33333333%; } }
-  .slider__item.slider__item_active--first > * {
-    border: none; }
+  flex: 0 0 100%; }
 
 /* кнопки влево и вправо */
 .slider__control {
-  position: absolute;
-  top: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  background: none;
-  border: none; }
+  position: absolute; }
 
 .slider__control_hide svg {
   cursor: default; }
@@ -100,12 +84,6 @@
     stroke: #c6c6c6; }
   .slider__control_hide svg path {
     fill: #c6c6c6; }
-
-.slider__control[data-slide='prev'] {
-  left: -60px; }
-
-.slider__control[data-slide='next'] {
-  right: -60px; }
 
 /* индикаторы */
 .slider__indicators {
@@ -139,6 +117,7 @@
 
 .card {
   line-height: 24px;
+  background: inherit;
   border: none;
   border-left: 1px solid #eeeeee; }
   .card .card-img-top {
@@ -170,5 +149,45 @@
     .link.news:hover {
       color: #dd4053;
       border-color: #dd4053; }
+
+.news {
+  background: #F8F8F8; }
+  .news .slider__item {
+    max-width: 25%;
+    user-select: none; }
+    @media screen and (max-width: 800px) {
+      .news .slider__item {
+        max-width: 100%; } }
+    @media screen and (max-width: 1200px) and (min-width: 801px) {
+      .news .slider__item {
+        max-width: 33.33333333%; } }
+    .news .slider__item.slider__item_active--first > * {
+      border: none; }
+  .news .slider__control {
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background: none;
+    border: none; }
+  .news .slider__control[data-slide='prev'] {
+    left: -60px; }
+  .news .slider__control[data-slide='next'] {
+    right: -60px; }
+
+.blog.block {
+  padding-right: 0; }
+@media screen and (min-width: 1400px) {
+  .blog .block_slider-header {
+    margin-right: 200px; } }
+@media screen and (max-width: 576px) {
+  .blog .block_slider-header {
+    padding-right: 50px; } }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .blog .block_slider-header {
+    padding-right: 100px; } }
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .blog .block_slider-header {
+    padding-right: 150px; } }
 
 /*# sourceMappingURL=main.css.map */

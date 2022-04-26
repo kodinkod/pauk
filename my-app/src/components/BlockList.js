@@ -1,13 +1,13 @@
 import React from 'react';
 import Block from "./Block";
 
-function Block_List(props) {
+function BlockList(props) {
     return (
-        <Block>
+        <Block className = {props.className}>
             {props.header}
             {props.list}
         </Block>
     );
 }
 
-export default Block_List;
+export default BlockList;
