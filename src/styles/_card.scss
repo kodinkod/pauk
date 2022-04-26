@@ -1,0 +1,31 @@
+.card{
+  line-height: 24px;
+  background: inherit;
+  .card-img-top{
+    padding: 0px 16px;
+
+  }
+  .card_header{
+    display: flex;
+
+    .calendar-svg {
+      margin: auto 0;
+    }
+  }
+  .card-title{
+    padding: 6px 0px;
+    font-size: 20px;
+  }
+
+  time{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+  }
+  border: none;
+  border-left: 1px solid rgba(238, 238, 238, 1);
+;
+}
