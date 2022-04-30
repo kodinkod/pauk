@@ -8,7 +8,11 @@ import Footer from "./components/Footer";
 import ChiefSlider from "./utils/slider";
 import React from "react";
 import img_1 from "./assets/images/news_1.jpg"
+import img_2 from "./assets/images/blog_1.jpg"
 import NewsCard from "./components/NewsCard";
+import Card from "./components/Card";
+import ArticleCard from "./components/ArticleCard";
+import EmailForm from "./components/EmailForm";
 
 
 class App extends React.Component {
@@ -33,6 +37,13 @@ class App extends React.Component {
             href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
         }
+        let article = {
+            img: img_2,
+            date: "18 марта, 2021",
+            title: "Зимовка в Regent Porto Montenegro",
+            href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            views: "3228",
+        }
         return (
             <Fragment>
                 <Header/>
@@ -44,10 +55,11 @@ class App extends React.Component {
                 />
                 <BlockList header={<ListHeader header_text="блог" link_text="Все статьи"/>}
                            list={<ListSlider
-                               item = {<NewsCard news = {news}/>}
+                               item = {<ArticleCard article = {article}/>}
                            />}
                            className="blog"
                 />
+                <EmailForm/>
                 <Footer/>
             </Fragment>
         );

@@ -4,13 +4,10 @@
     opacity:40%;
 }
 
-@font-face {
-    font-family: "Suisse Int'l";
-    src: url("fonts/Suisse Int'l/Suisse Int'l.ttf") format("opentype")
-}
+
 
 .header{
-    font-family: "Suisse Int`l";
+    font-family: "Suisse Int`l", sans-serif;
 }
 
 .header-1-second-block{

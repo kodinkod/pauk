@@ -1,5 +1,6 @@
 .news {
   background: #F8F8F8;
+
   .slider__item {
     @media screen and (max-width: 800px) {
       max-width: 100%;
@@ -10,7 +11,7 @@
     max-width: 25%;
     user-select: none;
 
-    &.slider__item_active--first>*{
+    &.slider__item_active--first > * {
       border: none;
     }
   }
@@ -30,5 +31,15 @@
 
   .slider__control[data-slide='next'] {
     right: -60px;
+  }
+
+  .link {
+    display: inline-block;
+    border-bottom: 1px solid rgba(44, 44, 44, 1);
+
+    &:hover {
+      color: rgba(221, 64, 83, 1);
+      border-color: rgba(221, 64, 83, 1);
+    }
   }
 }

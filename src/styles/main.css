@@ -140,15 +140,9 @@
 .link {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  line-height: 24px; }
-  .link.news {
-    display: inline-block;
-    color: #232323;
-    text-decoration: none;
-    border-bottom: 1px solid #2c2c2c; }
-    .link.news:hover {
-      color: #dd4053;
-      border-color: #dd4053; }
+  line-height: 24px;
+  text-decoration: none;
+  color: #232323; }
 
 .news {
   background: #F8F8F8; }
@@ -174,6 +168,12 @@
     left: -60px; }
   .news .slider__control[data-slide='next'] {
     right: -60px; }
+  .news .link {
+    display: inline-block;
+    border-bottom: 1px solid #2c2c2c; }
+    .news .link:hover {
+      color: #dd4053;
+      border-color: #dd4053; }
 
 .blog.block {
   padding-right: 0; }
@@ -189,5 +189,103 @@
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   .blog .block_slider-header {
     padding-right: 150px; } }
+.blog .slider__item {
+  max-width: 300px; }
+  @media screen and (max-width: 768px) {
+    .blog .slider__item {
+      max-width: 200px; } }
+.blog .slider__control {
+  left: -80px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background: none;
+  border: none; }
+  @media screen and (max-width: 576px) {
+    .blog .slider__control {
+      width: 30px;
+      height: 30px;
+      left: -50px; } }
+.blog .slider__control[data-slide='prev'] {
+  top: 30%; }
+.blog .slider__control[data-slide='next'] {
+  bottom: 30%; }
+.blog .card {
+  margin-right: 30px;
+  box-shadow: 0px 4px 20px 0px #00000012; }
+  .blog .card .link svg {
+    margin-left: 30px; }
+  .blog .card .link:hover {
+    color: red; }
+    .blog .card .link:hover * {
+      fill: red; }
+  .blog .card .card_header {
+    justify-content: space-between; }
+
+.email-form {
+  color: white;
+  margin: 0;
+  background-color: #DD4053;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .email-form h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0;
+    text-align: left; }
+  .email-form .email-form__header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EFEFEF; }
+  .email-form .button {
+    color: #DA2032;
+    border: 0px;
+    border-radius: 2px;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center; }
+  .email-form #email-input {
+    border-radius: 2px;
+    background: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white; }
+    .email-form #email-input::placeholder {
+      color: white; }
+    .email-form #email-input:focus {
+      border-color: white;
+      box-shadow: none; }
+  .email-form .email-radio-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0; }
+  .email-form .email-radio-input + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none; }
+  .email-form .email-radio-input + label::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%; }
+  .email-form .email-radio-input:checked + label::before {
+    background-image: url("../assets/icons/check-icon.svg");
+    background-color: white;
+    background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main.css.map */
