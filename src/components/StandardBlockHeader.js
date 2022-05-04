@@ -12,6 +12,7 @@ function NewsHeader(props) {
             <div className="col-lg-2 p-0 d-lg-flex">
                 <button className=" button m-lg-auto my-2">{props.link_text}</button>
             </div>
+            {props.children}
         </div>
     );
 }

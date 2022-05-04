@@ -10,8 +10,8 @@
     }
     max-width: 25%;
     user-select: none;
-
-    &.slider__item_active--first > * {
+    border-left: 1px solid #EEEEEE;
+    &.slider__item_active--first {
       border: none;
     }
   }

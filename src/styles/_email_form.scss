@@ -1,11 +1,13 @@
 .email-form {
   color: white;
   margin: 0;
-  background-color: #DD4053;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
-
+  background-color: #DD4053;
+  background-image: url("../assets/images/email-pattern.svg") ;
+  background-repeat: no-repeat;
+  background-position: 90% 0;
 
   h2 {
     font-size: 28px;
@@ -26,6 +28,7 @@
 
   .button {
 
+    background: white;
     color: #DA2032;
     border: 0px;
     border-radius: 2px;

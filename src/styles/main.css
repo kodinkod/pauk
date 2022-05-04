@@ -45,7 +45,7 @@
   height: 32px;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   line-height: 122%; }
   @media screen and (min-width: 1400px) {
@@ -118,8 +118,7 @@
 .card {
   line-height: 24px;
   background: inherit;
-  border: none;
-  border-left: 1px solid #eeeeee; }
+  border: none; }
   .card .card-img-top {
     padding: 0px 16px; }
   .card .card_header {
@@ -148,14 +147,15 @@
   background: #F8F8F8; }
   .news .slider__item {
     max-width: 25%;
-    user-select: none; }
+    user-select: none;
+    border-left: 1px solid #EEEEEE; }
     @media screen and (max-width: 800px) {
       .news .slider__item {
         max-width: 100%; } }
     @media screen and (max-width: 1200px) and (min-width: 801px) {
       .news .slider__item {
         max-width: 33.33333333%; } }
-    .news .slider__item.slider__item_active--first > * {
+    .news .slider__item.slider__item_active--first {
       border: none; }
   .news .slider__control {
     top: 50%;
@@ -175,60 +175,64 @@
       color: #dd4053;
       border-color: #dd4053; }
 
-.blog.block {
-  padding-right: 0; }
-@media screen and (min-width: 1400px) {
-  .blog .block_slider-header {
-    margin-right: 200px; } }
-@media screen and (max-width: 576px) {
-  .blog .block_slider-header {
-    padding-right: 50px; } }
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .blog .block_slider-header {
-    padding-right: 100px; } }
-@media screen and (min-width: 992px) and (max-width: 1400px) {
-  .blog .block_slider-header {
-    padding-right: 150px; } }
-.blog .slider__item {
-  max-width: 300px; }
-  @media screen and (max-width: 768px) {
-    .blog .slider__item {
-      max-width: 200px; } }
-.blog .slider__control {
-  left: -80px;
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  background: none;
-  border: none; }
+.blog {
+  position: relative; }
+  .blog svg {
+    position: absolute;
+    top: -10%; }
+  .blog.block {
+    padding-right: 0; }
+  @media screen and (min-width: 1400px) {
+    .blog .block_slider-header {
+      margin-right: 200px; } }
   @media screen and (max-width: 576px) {
-    .blog .slider__control {
-      width: 30px;
-      height: 30px;
-      left: -50px; } }
-.blog .slider__control[data-slide='prev'] {
-  top: 30%; }
-.blog .slider__control[data-slide='next'] {
-  bottom: 30%; }
-.blog .card {
-  margin-right: 30px;
-  box-shadow: 0px 4px 20px 0px #00000012; }
-  .blog .card .link svg {
-    margin-left: 30px; }
-  .blog .card .link:hover {
-    color: red; }
-    .blog .card .link:hover * {
-      fill: red; }
-  .blog .card .card_header {
-    justify-content: space-between; }
+    .blog .block_slider-header {
+      padding-right: 50px; } }
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .blog .block_slider-header {
+      padding-right: 100px; } }
+  @media screen and (min-width: 992px) and (max-width: 1400px) {
+    .blog .block_slider-header {
+      padding-right: 150px; } }
+  .blog .slider__item {
+    max-width: 300px; }
+  .blog .slider__control {
+    left: -80px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background: none;
+    border: none; }
+    @media screen and (max-width: 576px) {
+      .blog .slider__control {
+        width: 30px;
+        height: 30px;
+        left: -50px; } }
+  .blog .slider__control[data-slide='prev'] {
+    top: 30%; }
+  .blog .slider__control[data-slide='next'] {
+    bottom: 30%; }
+  .blog .card {
+    margin-right: 30px; }
+    .blog .card .link svg {
+      margin-left: 30px; }
+    .blog .card .link:hover {
+      color: red; }
+      .blog .card .link:hover * {
+        fill: red; }
+    .blog .card .card_header {
+      justify-content: space-between; }
 
 .email-form {
   color: white;
   margin: 0;
-  background-color: #DD4053;
   position: relative;
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  background-color: #DD4053;
+  background-image: url("../assets/images/email-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 0; }
   .email-form h2 {
     font-size: 28px;
     font-style: normal;
@@ -242,6 +246,7 @@
     line-height: 26px;
     color: #EFEFEF; }
   .email-form .button {
+    background: white;
     color: #DA2032;
     border: 0px;
     border-radius: 2px;
@@ -287,5 +292,29 @@
     background-image: url("../assets/icons/check-icon.svg");
     background-color: white;
     background-repeat: no-repeat; }
+
+.why-us {
+  background: #F8F8F8 url("../assets/images/why-us-map2.png") no-repeat center; }
+  .why-us .card {
+    border-radius: 0;
+    border-left: 6px solid transparent;
+    background: white;
+    padding: 30px 80px 30px 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    height: 100%; }
+    .why-us .card svg {
+      position: absolute;
+      right: 10px; }
+    .why-us .card:hover {
+      box-shadow: 0px 4px 20px 0px #00000012;
+      border-color: #DD4053; }
+      .why-us .card:hover svg {
+        fill: #DD4053; }
 
 /*# sourceMappingURL=main.css.map */

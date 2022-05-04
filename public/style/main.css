@@ -2,51 +2,6 @@
 /* GLOBAL */
 
 
-.why-us{
-  margin: 0;
-  padding: 70px 150px;
-  
-  background-color: #F8F8F8;
- 
-  }
-
-.why-us-cont{
-  background: url("../images/why-us-map.png") no-repeat;
-  background-size: contain;
- 
-}
-
-.why-us>.container{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.why-us-card{
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  padding-right: 80px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  position: relative;
-  height: 100%;
-}
-
-
-.why-us-card>button{
-  border: 1px solid #C6C6C6;
-  padding: 15px;
-  background: url("../images/why-us-check.svg") no-repeat;
-  background-size: contain;
-  height: 35px;
-  width: 35px;
-  position: absolute;
-  right: 10px;
-}
 
 /* Alexey F end */
 
