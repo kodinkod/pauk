@@ -177,9 +177,11 @@
 
 .blog {
   position: relative; }
-  .blog svg {
+  .blog .plane-svg {
     position: absolute;
-    top: -10%; }
+    top: -10%;
+    width: auto;
+    left: 60%; }
   .blog.block {
     padding-right: 0; }
   @media screen and (min-width: 1400px) {
