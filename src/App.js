@@ -15,6 +15,7 @@ import ArticleCard from "./components/ArticleCard";
 import EmailForm from "./components/EmailForm";
 import WhyUs from "./components/WhyUs";
 import Big_add from './components/Big_add';
+import Flag_list from './components/flag_list';
 
 
 class App extends React.Component {
@@ -69,8 +70,14 @@ class App extends React.Component {
                            />}
                            className="blog"
                 />
+ 
                 <EmailForm/>
                 <WhyUs/>
+
+                <Big_add title={<>Вы&nbsp;-&nbsp;представитель <br /> турагенства?</>}
+                text={<>Для вас у нас есть специальные выгодные предложения.</>}
+                />
+                <Flag_list/>
                 <Footer/>
             </Fragment>
         );

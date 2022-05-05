@@ -325,11 +325,31 @@
   height: 450px; 
   color: white;
 }
+
 .big_add img{
-  padding-top: 57px; 
-  padding-left:800px; 
+  padding-top: -20px; 
+  padding-left:700px; 
   position: absolute;
 }
 
+.text_bar_k{
+  z-index: 0;
+  display: flex;
+  flex-wrap:wrap;
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 60px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 150%;
+  }
+
+.my_card{
+  width: 238px;
+  height: 155px;
+  z-index: 0;
+  background-color: #F8F8F8;
+  border: 0px;
+  }
 
 /*# sourceMappingURL=main.css.map */

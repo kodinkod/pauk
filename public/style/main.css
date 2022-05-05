@@ -22,17 +22,7 @@ background-color: #969696;
 color: white;
 }
 
-.text_bar_k{
-z-index: 0;
-display: flex;
-flex-wrap:wrap;
-width: 800px;
-padding-top: 98px;
-padding-left: 200px;
-font-weight: 500px;
-font-size: 30px;
-line-height: 150%;
-}
+
 
 .contry_presentasion{
 
@@ -46,13 +36,8 @@ bottom: 25px;
 border: 1px solid #969696 ;
 }
 
-.my_card{
-width: 238px;
-height: 155px;
-z-index: 0;
-background-color: #F8F8F8;
-border: 0px;
-}
+
+
 
 .img_card{
 left: 20px;
