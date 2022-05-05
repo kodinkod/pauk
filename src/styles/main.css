@@ -319,4 +319,17 @@
       .why-us .card:hover svg {
         fill: #DD4053; }
 
+
+.big_add{
+  background-image: url(../../public/images/Italy.png); 
+  height: 450px; 
+  color: white;
+}
+.big_add img{
+  padding-top: 57px; 
+  padding-left:800px; 
+  position: absolute;
+}
+
+
 /*# sourceMappingURL=main.css.map */

@@ -12,7 +12,7 @@ function Header(props) {
         <span className="img-container">
           <a href="#">
             <img
-                src="../../public/images/logo (1) 1.png"
+                src="images/logo (1) 1.png"
                 style={{width: 131, height: 72}}
             />
           </a>
@@ -64,13 +64,13 @@ function Header(props) {
                         {/* DIVCHIK */}
                         <div className="vertical-small-line-rectangle"/>
                         <a href="#">
-                            <img src="../../public/images/header_facebook.png" alt=""/>
+                            <img src="images/header_facebook.png" alt=""/>
                         </a>
                         <a href="#">
-                            <img src="../../public/images/header_instagram.png" alt=""/>
+                            <img src="images/header_instagram.png" alt=""/>
                         </a>
                         <a href="#">
-                            <img src="../../public/images/header_youtube.png" alt=""/>
+                            <img src="images/header_youtube.png" alt=""/>
                         </a>
                         {/* DIVCHIK */}
                         <div className="vertical-small-line-rectangle"/>
@@ -82,7 +82,7 @@ function Header(props) {
                             <p>068-537-20-07</p>
                         </div>
                         <div className="">
-                            <img src="../../public/images/smartphone_1.png" alt=""/>
+                            <img src="images/smartphone_1.png" alt=""/>
                         </div>
                         {/* DIVCHIK */}
                         <div className="vertical-small-line-rectangle"/>
@@ -103,7 +103,7 @@ function Header(props) {
                     }}
                 >
                   <img
-                      src="../../public/images/Frame_18.png"
+                      src="images/Frame_18.png"
                       width={19}
                       height={17}
                       alt=""
@@ -169,7 +169,7 @@ function Header(props) {
                                 className="img-container"
                                 style={{position: "absolute", padding: 15, pointerEvents: "none"}}
                             >
-            <img src="../../public/images/Vector.png" width={19} height="17.17" alt=""/>
+            <img src="images/Vector.png" width={19} height="17.17" alt=""/>
           </span>
                         </div>
                         <li className="nav-item dropdown menu_line_under">
@@ -356,7 +356,6 @@ function Header(props) {
                 </div>
             </nav>
             <div className="" style={{}}>
-                <img src="../../public/images/FAKE_IMG.jpg" style={{width: "100%"}} alt=""/>
             </div>
         </>, document.getElementById("header"))
 

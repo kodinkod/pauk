@@ -14,6 +14,7 @@ import Card from "./components/Card";
 import ArticleCard from "./components/ArticleCard";
 import EmailForm from "./components/EmailForm";
 import WhyUs from "./components/WhyUs";
+import Big_add from './components/Big_add';
 
 
 class App extends React.Component {
