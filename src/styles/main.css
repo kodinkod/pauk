@@ -1,0 +1,355 @@
+@charset "UTF-8";
+@media screen and (min-width: 1400px) {
+  .block {
+    padding: 90px 200px; } }
+@media screen and (max-width: 576px) {
+  .block {
+    padding: 30px 50px; } }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .block {
+    padding: 50px 100px; } }
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .block {
+    padding: 90px 150px; } }
+
+.button {
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: none; }
+
+.main-size {
+  font-size: 10px; }
+
+.main-font {
+  font-family: "Montserrat"; }
+
+.secondary-font {
+  font-family: "Open sans"; }
+
+.block_slider-header {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px; }
+  @media screen and (min-width: 1400px) {
+    .block_slider-header {
+      font-size: 45px; } }
+
+.button {
+  color: #969696;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 122%; }
+  @media screen and (min-width: 1400px) {
+    .button {
+      height: 45px; } }
+  @media screen and (min-width: 992px) {
+    .button {
+      width: 100%; } }
+
+.slider {
+  position: relative; }
+
+.slider__container {
+  overflow: hidden; }
+
+.slider__wrapper {
+  /*overflow: hidden;*/ }
+
+.slider__items {
+  display: flex;
+  transition: transform 0.5s ease; }
+
+.slider_disable-transition {
+  transition: none; }
+
+.slider__item {
+  flex: 0 0 100%; }
+
+/* кнопки влево и вправо */
+.slider__control {
+  position: absolute; }
+
+.slider__control_hide svg {
+  cursor: default; }
+  .slider__control_hide svg circle {
+    stroke: #c6c6c6; }
+  .slider__control_hide svg path {
+    fill: #c6c6c6; }
+
+/* индикаторы */
+.slider__indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin: 0 15%; }
+
+.slider__indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; }
+
+.slider__indicators li.active {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.card {
+  line-height: 24px;
+  background: inherit;
+  border: none; }
+  .card .card-img-top {
+    padding: 0px 16px; }
+  .card .card_header {
+    display: flex; }
+    .card .card_header .calendar-svg {
+      margin: auto 0; }
+  .card .card-title {
+    padding: 6px 0px;
+    font-size: 20px; }
+  .card time {
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #BBBBBB; }
+
+.link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #232323; }
+
+.news {
+  background: #F8F8F8; }
+  .news .slider__item {
+    max-width: 25%;
+    user-select: none;
+    border-left: 1px solid #EEEEEE; }
+    @media screen and (max-width: 800px) {
+      .news .slider__item {
+        max-width: 100%; } }
+    @media screen and (max-width: 1200px) and (min-width: 801px) {
+      .news .slider__item {
+        max-width: 33.33333333%; } }
+    .news .slider__item.slider__item_active--first {
+      border: none; }
+  .news .slider__control {
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background: none;
+    border: none; }
+  .news .slider__control[data-slide='prev'] {
+    left: -60px; }
+  .news .slider__control[data-slide='next'] {
+    right: -60px; }
+  .news .link {
+    display: inline-block;
+    border-bottom: 1px solid #2c2c2c; }
+    .news .link:hover {
+      color: #dd4053;
+      border-color: #dd4053; }
+
+.blog {
+  position: relative; }
+  .blog .plane-svg {
+    position: absolute;
+    top: -10%;
+    width: auto;
+    left: 60%; }
+  .blog.block {
+    padding-right: 0; }
+  @media screen and (min-width: 1400px) {
+    .blog .block_slider-header {
+      margin-right: 200px; } }
+  @media screen and (max-width: 576px) {
+    .blog .block_slider-header {
+      padding-right: 50px; } }
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .blog .block_slider-header {
+      padding-right: 100px; } }
+  @media screen and (min-width: 992px) and (max-width: 1400px) {
+    .blog .block_slider-header {
+      padding-right: 150px; } }
+  .blog .slider__item {
+    max-width: 300px; }
+  .blog .slider__control {
+    left: -80px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background: none;
+    border: none; }
+    @media screen and (max-width: 576px) {
+      .blog .slider__control {
+        width: 30px;
+        height: 30px;
+        left: -50px; } }
+  .blog .slider__control[data-slide='prev'] {
+    top: 30%; }
+  .blog .slider__control[data-slide='next'] {
+    bottom: 30%; }
+  .blog .card {
+    margin-right: 30px; }
+    .blog .card .link svg {
+      margin-left: 30px; }
+    .blog .card .link:hover {
+      color: red; }
+      .blog .card .link:hover * {
+        fill: red; }
+    .blog .card .card_header {
+      justify-content: space-between; }
+
+.email-form {
+  color: white;
+  margin: 0;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #DD4053;
+  background-image: url("../assets/images/email-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 0; }
+  .email-form h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0;
+    text-align: left; }
+  .email-form .email-form__header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EFEFEF; }
+  .email-form .button {
+    background: white;
+    color: #DA2032;
+    border: 0px;
+    border-radius: 2px;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center; }
+  .email-form #email-input {
+    border-radius: 2px;
+    background: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white; }
+    .email-form #email-input::placeholder {
+      color: white; }
+    .email-form #email-input:focus {
+      border-color: white;
+      box-shadow: none; }
+  .email-form .email-radio-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0; }
+  .email-form .email-radio-input + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none; }
+  .email-form .email-radio-input + label::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%; }
+  .email-form .email-radio-input:checked + label::before {
+    background-image: url("../assets/icons/check-icon.svg");
+    background-color: white;
+    background-repeat: no-repeat; }
+
+.why-us {
+  background: #F8F8F8 url("../assets/images/why-us-map2.png") no-repeat center; }
+  .why-us .card {
+    border-radius: 0;
+    border-left: 6px solid transparent;
+    background: white;
+    padding: 30px 80px 30px 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    height: 100%; }
+    .why-us .card svg {
+      position: absolute;
+      right: 10px; }
+    .why-us .card:hover {
+      box-shadow: 0px 4px 20px 0px #00000012;
+      border-color: #DD4053; }
+      .why-us .card:hover svg {
+        fill: #DD4053; }
+
+
+.big_add{
+  background-image: url(../../public/images/Italy.png); 
+  height: 450px; 
+  color: white;
+}
+
+.big_add img{
+  padding-top: -20px; 
+  padding-left:700px; 
+  position: absolute;
+}
+
+.text_bar_k{
+  z-index: 0;
+  display: flex;
+  flex-wrap:wrap;
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 60px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 150%;
+  }
+
+.my_card{
+  width: 238px;
+  height: 155px;
+  z-index: 0;
+  background-color: #F8F8F8;
+  border: 0px;
+  }
+
+/*# sourceMappingURL=main.css.map */
