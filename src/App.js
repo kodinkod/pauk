@@ -16,6 +16,7 @@ import EmailForm from "./components/EmailForm";
 import WhyUs from "./components/WhyUs";
 import Big_add from './components/Big_add';
 import Flag_list from './components/flag_list';
+import TourCard from "./components/TourCard";
 
 
 class App extends React.Component {
@@ -50,6 +51,12 @@ class App extends React.Component {
         return (
             <Fragment>
                 <Header/>
+                <BlockList header={<ListHeader header_text="АКТУАЛЬНЫЕ ТУРЫ " link_text="Все туры"/>}
+                           list={<ListSlider
+                               item={<TourCard/>}
+                           />}
+                           className = "tours"
+                />
                 <BlockList header={<ListHeader header_text="важные новости" link_text="Все новости"/>}
                            list={<ListSlider
                                item={<NewsCard news={news}/>}
@@ -66,7 +73,7 @@ class App extends React.Component {
                 </ListHeader>
                     }
                            list={<ListSlider
-                               item = {<ArticleCard article = {article}/>}
+                               item = {<ArticleCard {...article}/>}
                            />}
                            className="blog"
                 />

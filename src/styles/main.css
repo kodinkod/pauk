@@ -347,4 +347,89 @@
   background-color: #F8F8F8;
   border: 0px; }
 
+.tours .slider__item {
+  max-width: 33.33333333%;
+  user-select: none; }
+  @media screen and (max-width: 800px) {
+    .tours .slider__item {
+      max-width: 100%; } }
+.tours .slider__control {
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background: none;
+  border: none; }
+.tours .slider__control[data-slide='prev'] {
+  left: -60px; }
+.tours .slider__control[data-slide='next'] {
+  right: -60px; }
+.tours .actual_tour-card {
+  width: 326px;
+  height: 480px;
+  background: #F8F8F8; }
+.tours .tour_card-head {
+  width: 326px;
+  height: 250px; }
+.tours .card1 .tour_card-head {
+  background-image: url(../assets/images/tour1.png); }
+.tours .card_label {
+  position: relative;
+  top: 20px;
+  width: fit-content;
+  padding: 3px 13px 3px 15px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.35);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF; }
+.tours .tour_card-foot {
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px; }
+.tours .tour_card-text p {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #DD4053; }
+.tours .tour_card-text {
+  height: 50px; }
+.tours .tour_card-text p span {
+  font-size: 24px; }
+.tours .tour_card-text h6 {
+  margin: 0px;
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #C9C9C9; }
+.tours .actual_tour-card h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  text-transform: uppercase; }
+.tours .actual_tour-card h4 {
+  margin: 0px;
+  margin-top: 15px;
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #848484; }
+.tours .bott {
+  padding-left: 20px;
+  padding-right: 20px; }
+.tours .tour_card-foot p {
+  margin: 0px; }
+
 /*# sourceMappingURL=main.css.map */
