@@ -1,0 +1,222 @@
+/* ADDED VANYA*/
+.social-media-links{
+
+    opacity:40%;
+}
+
+
+
+.header{
+    font-family: "Suisse Int`l", sans-serif;
+}
+
+.header-1-second-block{
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+}
+.btn-outline-primary{
+    color: #000;
+    border-color: #fff;
+}
+
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: #fff;
+    background-color: #4AD295;
+    border-color: #4AD295;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #4AD295;
+    border-color: #4AD295;
+}
+
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 134, 13, 0.5);
+}
+.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 134, 13, 0.5);
+}
+
+.vertical-small-line-rectangle{
+    width: 1px;
+    height: 40px;
+    background: #D0D0D0;
+}
+
+.vertical-line-rectangle{
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    background: #D0D0D0;
+}
+
+.header-2{
+    font-style: bold;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+.img-container {
+    text-align: center;
+    display: block;
+}
+.navbar-header-2{
+    justify-content: space-between;
+}
+
+.menu_line_under:after {
+    content: "";
+    border-bottom: 3px solid red;
+    display: block;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.menu_line_under:hover:after {
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: all .5s linear;
+}
+
+.menu_line_under:hover {
+    transition: background .4s ease-in-out;
+    color: #111;
+}
+
+.menu_line_under:last-child {
+    position: absolute;
+    top: -1000%;
+    left: 0;
+    transform: scale(3);
+}
+
+.menu_line_under:last-child:hover {
+    top: 100%;
+    transition: top .4s ease-in-out, transform .4s linear;
+    transform: scale(1);
+}
+
+/* Search button */
+}
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color:  #F8F8F8;;
+    padding-right: 40px;
+    color:#000000;
+}
+.input-search::placeholder{
+    color:rgba(0,0,0,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#000000 ;
+    background-color:transparent;
+    pointer-events: painted;
+}
+.btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0,0,0,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0,0,0,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+.maistra-online{
+    display: inline-flex;
+    width: 240px;
+    height: 55px;
+
+
+    background: #EFF3F6;
+    border-radius: 2px;
+}
+
+
+.maistra-redblock{
+    position: inherit;
+    right: 0;
+
+
+    width: 55px;
+    height: 55px;
+
+    background: #DD4053;
+    border-radius: 2px;
+}
+
+.tour-online{
+    display: inline-flex;
+    width: 205px;
+    height: 55px;
+
+    background: #EFF3F6;
+    border-radius: 2px;
+}
+
+.tour-greenblock{
+    position: inherit;
+    right: 0;
+    width: 55px;
+    height: 55px;
+
+
+    background: #4AD295;
+    border-radius: 2px;
+}
+
+​.footer-main {
+    background-color: #F8F8F8;
+    position: fixed;
+    display: inline-flex;
+    width: 205px;
+    height: 55px;
+}​
+
+footer{
+    background-color:  #F8F8F8;
+    
+}
+
+/* VANYA END */
