@@ -1,0 +1,108 @@
+ 
+
+main {
+	font-family: Montserrat, sans-serif;
+}
+
+.faq-heading{
+	position: relative;
+}
+
+.faq-heading h2{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 31px;
+	line-height: 42px;
+	width: 60%;
+	text-transform: uppercase;
+}
+
+svg.plane-svg{
+	position: absolute;
+	bottom: 5%;
+	left: -15%;
+}
+
+.accordion-item{
+	border: 0px;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.accordion-button:not(.collapsed) {
+	color: unset;
+	background-color: unset;
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) p{
+	margin-right: 15px;
+	text-align: center;
+	color: white;
+	background-color: #DD4053;
+	border: 0px;
+}
+
+.accordion-button:focus{
+	box-shadow: none;
+}
+
+.accordion-button{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	border-color: red;
+	box-shadow: none;
+}
+
+.accordion-button::after{
+	background-image:  url("../images/arrow-down.svg");
+	background-size: contain;
+}
+.accordion-button:not(.collapsed)::after{
+	background-image:  url("../images/arrow-up.svg");
+	background-size: contain;
+	transform:  none;
+}
+.accordion-button p{
+	margin-right: 15px;
+	text-align: center;
+	background-color: #F8F8F8;
+}
+
+.accordion-header  p{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	display: inline-block;
+	background-color: #F8F8F8;
+	margin: 0;
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+}
+
+
+
+.accordion-collapse{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+footer {
+ background: #F8F8F8;
+}
+
+@media screen and (max-width: 1200px){
+	.accordion-button{
+		padding-left: 0;
+	}
+}
+
+
+
+
+

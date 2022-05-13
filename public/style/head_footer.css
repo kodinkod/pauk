@@ -6,10 +6,6 @@
 
 
 
-.header{
-    font-family: "Suisse Int`l", sans-serif;
-}
-
 .header-1-second-block{
     font-size: 16px;
     line-height: 21px;
@@ -106,7 +102,7 @@
 }
 
 /* Search button */
-}
+
 .search-box{
     width: fit-content;
     height: fit-content;
@@ -206,17 +202,5 @@
     border-radius: 2px;
 }
 
-​.footer-main {
-    background-color: #F8F8F8;
-    position: fixed;
-    display: inline-flex;
-    width: 205px;
-    height: 55px;
-}​
-
-footer{
-    background-color:  #F8F8F8;
-    
-}
 
 /* VANYA END */
