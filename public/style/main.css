@@ -432,6 +432,17 @@ justify-content: space-between;
      background: #F8F8F8;
      background-size: 100%;
 }
+.your-tour .btn{
+    width: 40%;
+    color: #717171;
+}
+
+.your-tour .btn:hover{
+    color: white;
+    background-color: #717171;
+}
+
+
 
 .tour-info h3{
 
