@@ -1,0 +1,100 @@
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+.block.hotels {
+
+  .slider__control {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    background: none;
+    border: none;
+    position: static;
+    margin-bottom: 5px;
+    &[data-slide = "prev"] { margin-right: 5px;}
+  }
+
+  padding-right: 0;
+  padding-left: 0;
+
+  .slider__item {
+    max-width: 33.333333%;
+    margin-left: 20px;
+  }
+
+  .slider__item_active--first{
+    margin-left: 0;
+  }
+
+  .block_slider-header {
+    @media screen and (min-width: $xxl) {
+      margin-right: 200px;
+      margin-left: 200px;
+    }
+
+
+    @media screen and (max-width: $sm) {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    @media screen and (min-width: $sm + 1) and(max-width: $lg) {
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    @media screen and (min-width: $lg) and (max-width: $xxl) {
+      padding-right: 150px;
+      padding-left: 150px;
+    }
+
+  }
+
+  .best-hotel-card{
+    height: 450px;
+    position: relative;
+  }
+  .card1{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(images/best_hotels-1.png);
+  }
+
+  .card_label {
+    position: relative;
+    top:20px;
+    width: fit-content;
+    padding: 3px 13px 3px 15px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.35);
+
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+  .best-hotel-card img{
+    display: block;
+    margin: 150px auto 30px;
+  }
+  .best-hotel-card h3{
+    width: 300px;
+
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
