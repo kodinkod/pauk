@@ -441,6 +441,9 @@ justify-content: space-between;
     background-color: #717171;
 }
 
+.tour_card-head{
+    background: url("../images/tour1.png") no-repeat;
+}
 
 
 .tour-info h3{
@@ -553,4 +556,6 @@ justify-content: space-between;
     width: 135px;
 }
 
-
+.best-hotel-card {
+    background: url("../images/hotel_1.jpg") no-repeat;
+}
