@@ -477,3 +477,70 @@ justify-content: space-between;
 
 /* ALex 993 END*/
 
+.booking{
+    height: 146px;
+    padding:0px;
+
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.book_greyline{
+    height: 6px;
+    background: #969696;
+}
+
+.booking-body{
+    height: 140px;
+    background: #F8F8F8;
+    margin:0px;
+    padding:20px;
+}
+
+.book{
+    display:flex;
+}
+.book-textline{
+    margin-bottom:7px;
+    margin-left:1px;
+}
+
+.book span{
+    margin-left:5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(34, 34, 34, 0.4);
+}
+
+.book-find{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border-color: #DD4053;
+    width: 135px;
+    height: 50px;
+    background: #DD4053;
+    border-radius: 2px;
+    margin:auto;
+
+}
+.book-find:hover{
+    border-color: #DD4053;
+    background: #B22222;
+}
+
+.book-inputs{
+    border-radius:0px;
+}
+.input-cols{
+    padding:0px;
+}
+.btn-col{
+    padding-top:15px;
+    width: 135px;
+}
+
+
