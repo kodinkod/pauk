@@ -215,7 +215,8 @@
   .blog .slider__control[data-slide='next'] {
     bottom: 30%; }
   .blog .card {
-    margin-right: 30px; }
+    margin-right: 30px;
+    box-shadow: 0px 4px 20px 0px #00000012; }
     .blog .card .link svg {
       margin-left: 30px; }
     .blog .card .link:hover {
