@@ -491,9 +491,10 @@ justify-content: space-between;
 /* ALex 993 END*/
 
 .booking{
+    
     height: 146px;
     padding:0px;
-
+    margin-bottom:100px;
     padding-left:200px;
     padding-right:200px;
 }
@@ -504,9 +505,10 @@ justify-content: space-between;
 }
 
 .booking-body{
+
     height: 140px;
     background: #F8F8F8;
-    margin:0px;
+
     padding:20px;
 }
 
@@ -559,3 +561,18 @@ justify-content: space-between;
 .best-hotel-card {
     background: url("../images/hotel_1.jpg") no-repeat;
 }
+
+
+.carousel-item .button{
+   padding-bottom: 36px;
+   height: 40px;
+}
+
+.carousel-item .button:hover{
+    color: #717171;
+    background-color: white;
+ }
+
+ .email-form .button{
+     height: 45px;
+ }
