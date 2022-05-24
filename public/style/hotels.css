@@ -1,30 +1,115 @@
 
+
+.mycrumb a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #969696;
+
+}
+
+.mycrumb a:hover{
+    transition: 0.5s;
+        color: #1388ce;
+
+}
+
+.mycrumb_cur{
+    color: #171717;
+    font-family: 'Montserrat';
+}
 .search-hotel{
     padding-left: 7%;
     padding-right: 5%;
 
 }
+.search-hotel h1{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 55px;
+    /* or 177% */
 
+    text-transform: uppercase;
+
+    color: #232323;
+}
+.filter-row{margin-top:10px;
+    margin-bottom: 30px;
+}
+.my-form{
+
+
+
+    min-width: 220px;
+    height: 50px;
+
+
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    border-radius: 2px;
+}
 .best-hotel-card{
+        display: inline-block;
+        background-size: cover;
+        width:32vw;
+        height: 30vw;
         min-width: 360px;
         min-height: 350px;
-        margin: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
         position: relative;
+
     }
 
 
 .best-hotel-card:hover img{
             transition: 1s;
-            margin-top: 100px;
+            margin-top: 30%;
 }
 .best-hotel-card:not(:hover) img{
             transition: 1s;
-            margin-top: 150px;
+            margin-top: 50%;
 }
 
 .card1{
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(images/best_hotels-1.png);
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-1.png);
     }
+.card2{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-2.png);
+    }
+.card3{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-3.png);
+    }
+.card4{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-4.png);
+    }
+.card5{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-5.png);
+    }
+.card6{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-6.png);
+    }
+.card7{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-7.png);
+    }
+.card8{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-8.png);
+    }
+.card9{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-9.png);
+    }
+.card10{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-1.png);
+    }
+.card11{
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-2.png);
+    }
+.card12{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/hotels_png/hotels-3.png);
+    }
+
 
     .card_label {
         position: relative;
@@ -46,8 +131,8 @@
 
     .best-hotel-card img{
         display: block;
-        margin-top: 150px;
-        margin-bottom: 30px;
+        margin-top: 80%;
+
         margin-left: auto;
         margin-right: auto;
     }
@@ -69,11 +154,13 @@
     }
 
 .my_btn{
+
     display: block;
     background-color:#FFF;
     width: 270px;
     height: 60px;
     margin:auto;
+    margin-top:40px;
     border: 1px solid #969696;
     border-radius: 2px;
     font-family: 'Montserrat';
@@ -98,4 +185,63 @@
     transition: 1s;
     color: #969696;
     background-color:#FFF;
+}
+
+#page-num-input{
+    -moz-appearance: textfield;
+    margin-left:10px;
+    width: 50px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #969696;
+}
+#page-num-input::-webkit-inner-spin-button {
+  display: none;
+  }
+.pagenum{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #969696;
+}
+.pagenum:hover{
+    transition: 1s;
+    color: #1388ce;
+}
+
+.go-to-page{
+text-decoration: none;
+margin:10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #969696;
+}
+
+.go-to-page:hover{
+    transition: 1s;
+    color: #1388ce;
+
+}
+
+.choose-page-row{
+    padding-bottom: 90px;
+    margin-top: 30px;
 }
