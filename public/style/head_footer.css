@@ -203,4 +203,19 @@
 }
 
 
+.active-header-footer{
+    transform: perspective(200px) rotateX(0deg);
+    will-change: transform;
+    transition: all 0.3s;
+}
+
+.active-header-footer:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+
+.active-header-footer:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+
 /* VANYA END */
